@@ -16,6 +16,7 @@ jobs:
         uses: ./
         with:
           weread-api-key: ${{ secrets.WEREAD_API_KEY }}
+          weread-cookie: ${{ secrets.WEREAD_COOKIE }}
           notion-token: ${{ secrets.NOTION_TOKEN }}
           notion-page: ${{ secrets.NOTION_PAGE }}
           notion-database-id: ${{ secrets.NOTION_DATABASE_ID }}
